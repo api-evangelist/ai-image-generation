@@ -1,0 +1,63 @@
+name: ImageGen
+description: >-
+  AI image generation API by ForgeMesh Labs / CoinopAI offering text-to-image, background removal, HD upscaling, and
+  identity-preserving image transforms via FLUX models. Access is metered through x402 micropayments in USDC on Base
+  mainnet, with no API key or signup.
+url: https://raw.githubusercontent.com/api-evangelist/ai-image-generation/refs/heads/main/apis.yml
+created: '2026-09-17'
+modified: '2026-09-17'
+specificationVersion: '0.21'
+tags:
+  - ai
+  - image-generation
+  - text-to-image
+  - generative-ai
+  - background-removal
+  - image-upscaling
+  - image-transform
+  - x402
+  - crypto-payments
+  - usdc
+  - base-mainnet
+  - agent-native
+  - mcp
+  - pay-per-use
+apis:
+  - name: AI Image Generation
+    description: >-
+      Text-to-image and image-transform REST API (HTTP GET routes) priced per-call via x402 USDC micropayments on Base
+      mainnet. Includes standard/clean/HD/pro generation, image transform, presets, and free job-status polling.
+    humanURL: https://imagegen.coinopai.com
+    baseURL: https://imagegen.coinopai.com
+    tags:
+      - ai
+      - image-generation
+      - text-to-image
+      - generative-ai
+      - background-removal
+      - image-upscaling
+      - image-transform
+      - x402
+      - crypto-payments
+      - usdc
+      - base-mainnet
+      - agent-native
+      - mcp
+      - pay-per-use
+    properties:
+      - type: OpenAPI
+        url: https://imagegen.coinopai.com/openapi.json
+      - type: LLMsTxt
+        url: https://imagegen.coinopai.com/llms.txt
+      - type: Documentation
+        url: https://imagegen.coinopai.com
+maintainers:
+  - FN: ForgeMesh Labs
+    url: https://github.com/forgemeshlabs/imagegen
+  - FN: '@kirothebot'
+    url: https://twitter.com/kirothebot
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 95
+  at: '2026-09-17T14:09:00.933Z'
